@@ -1,0 +1,52 @@
+<div class="relatedInstructor">
+    <div class="boxList">
+        <h3>Most Related Instructor Courses for "Python"</h3>
+        <nav>
+          <div class="nav border-0 nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link border-0 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+              <i class="bi bi-grid-3x3-gap-fill"></i>
+            </button>
+            <button class="nav-link border-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+              <i class="bi bi-list-ul"></i>
+            </button>
+          </div>
+        </nav>
+    </div>
+
+    <div class="mb-4">
+        <div class="row mt-4">
+          <div class="col-lg-10">
+            <nav class="navFilter">
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link rounded-0 mb-3 active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="true">All</button>
+                <button class="nav-link rounded-0 mb-3" id="nav-new-tab" data-bs-toggle="tab" data-bs-target="#nav-new" type="button" role="tab" aria-controls="nav-new" aria-selected="false">New</button>
+                <button class="nav-link rounded-0 mb-3" id="nav-trendy-tab" data-bs-toggle="tab" data-bs-target="#nav-trendy" type="button" role="tab" aria-controls="nav-trendy" aria-selected="false">Trendy</button>
+                <button class="nav-link rounded-0 mb-3" id="nav-popular-tab" data-bs-toggle="tab" data-bs-target="#nav-popular" type="button" role="tab" aria-controls="nav-popular" aria-selected="false">Popular</button>
+                <button class="nav-link rounded-0 mb-3" id="nav-free-tab" data-bs-toggle="tab" data-bs-target="#nav-free" type="button" role="tab" aria-controls="nav-free" aria-selected="false">Free</button>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-2">
+            <button class="btn rounded-0 view">Show More</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <app-grid-instructor></app-grid-instructor>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <app-list-instructor></app-list-instructor>
+      </div>
+    </div>
+
+    <div class="tab-pane fade show active" id="grid-tab-pane">
+        
+    </div>
+
+    <div class="tab-pane fade" id="list-tab-pane">
+        
+    </div>
+
+</div>

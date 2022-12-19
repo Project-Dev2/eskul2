@@ -1,0 +1,20 @@
+.skill input { 
+  display: none;  
+  margin-top: 50px;
+}
+.skill span:hover {
+  color: rgb(216,81,125);
+}
+.skill .seatButton { 
+  border: 1px solid #dfdcdc;
+  padding: 3px 15px;
+  font-size: 15px;
+  border-radius: 25px;
+  line-height: 40px; 
+  cursor: pointer;
+  margin-right: 5px;
+}
+.skill input:checked + .seatButton {
+  color: rgb(216,81,125);
+  border: 1px solid rgb(216,81,125);
+}

@@ -1,0 +1,6 @@
+.level label {
+    cursor: pointer;
+  }
+.level label:hover {
+    color: rgb(216,81,125);
+}

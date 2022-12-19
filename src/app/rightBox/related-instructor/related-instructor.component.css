@@ -1,0 +1,39 @@
+.relatedInstructor h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #524f4f;
+}
+.relatedInstructor .boxList,
+.relatedInstructor .boxButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.relatedInstructor .nav-tabs {
+    border-bottom: none;
+}
+.relatedInstructor .navFilter button {
+    background-color: #faf5f5;
+    color: #02377D;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-right: 3px;
+}
+.relatedInstructor .navFilter .nav-link.active,
+.relatedInstructor .navFilter .nav-link:hover {
+    color: #fff;
+    background-color: #02377D;
+}
+.relatedInstructor .view {
+    background-color: #02377D;
+    color: #fff;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;
+    text-transform: uppercase;
+}
+.relatedInstructor .view:hover {
+    background-color: #546f99;
+}

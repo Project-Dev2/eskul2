@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+.policy-product .owl-next, .policy-product .owl-prev {
+    background: rgba(158, 158, 158, 28%)!important;
+    color: #222!important;
+    height: 60px!important;
+    width: 60px!important;
+    border-radius: 50%!important;
+    position: absolute;
+    top: 50%;
+}
+.policy-product .owl-next {
+    right: -68px;
+    transform: translate(-50%, -50%);
+}
+.policy-product .owl-prev {
+    left: -8px;
+    transform: translate(-50%, -50%);
+}
+.policy-product .owl-next i, .policy-product .owl-prev i {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=checkbox]{
+    margin-left: 20px;
+    opacity: 0;
+}
+input[type=checkbox]:checked {
+    opacity: 1;
+    width: 14px;
+    margin-left: 12px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.boxList button{
+    color: #a8a5a5;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0px 5px;
+    text-decoration: none;
+    border: none;
+}
+.boxList .nav-link:hover {
+    color: rgb(216,81,125);
+}
+.boxList .nav-link.active {
+    color: rgb(216,81,125);
+}
+

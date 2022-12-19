@@ -1,0 +1,6 @@
+.product label {
+    cursor: pointer;
+  }
+.product label:hover {
+    color: rgb(216,81,125);
+}

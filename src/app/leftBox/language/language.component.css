@@ -1,0 +1,6 @@
+.language label {
+    cursor: pointer;
+  }
+.language label:hover {
+    color: rgb(216,81,125);
+}

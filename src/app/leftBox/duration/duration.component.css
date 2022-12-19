@@ -1,0 +1,6 @@
+.duration label {
+    cursor: pointer;
+  }
+.duration label:hover {
+    color: rgb(216,81,125);
+}
